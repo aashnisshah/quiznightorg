@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Night | Fundraising Event for folks impacted by COVID-19</title>
+  </head>
+  <body>
+    <h1>Interested?!</h1>
+    <p>
+      We'll be launching the registration form soon. Let us know you're
+      interested and you'll be the first to know when tickets are available!
+    </p>
+    <form
+      action=""
+      name="registration"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <label for="firstname">First Name</label>
+      <input id="firstname" name="firstname" type="text" />
+
+      <label for="lastname">Last Name</label>
+      <input id="lastname" name="lastname" type="text" />
+
+      <label for="email">Email Address</label>
+      <input id="email" name="email" type="email" />
+
+      <p class="hidden">
+        <label
+          >Don’t fill this out if you're human: <input name="bot-field"
+        /></label>
+      </p>
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
