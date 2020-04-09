@@ -863,6 +863,10 @@ h3 {
   padding: 32px 150px;
 }
 
+.logo-img img {
+  width: 120px;
+}
+
 @media (max-width: 767px) {
   /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area {
@@ -886,14 +890,18 @@ h3 {
 
 @media (max-width: 767px) {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img {
+  .header-area .main-header-area .logo-img,
+  .logo-img img {
+    width: 120px;
     padding-left: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img {
+  .header-area .main-header-area .logo-img,
+  .logo-img img {
+    width: 120px;
     padding-left: 20px;
   }
 }
@@ -5921,8 +5929,9 @@ input[type="text"].tito-ticket-quantity-field {
   outline: none !important;
 }
 
-.tito-badge-link {
-  display: none !important;
+.tito-badge-link,
+.tito-badge-link a {
+  color: #fff;
 }
 
 .tito-submit {
@@ -5942,4 +5951,9 @@ input[type="text"].tito-ticket-quantity-field {
 
 .hidden {
   display: none;
+}
+
+.register-description {
+  color: #fff;
+  font-size: 1em;
 }
