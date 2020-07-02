@@ -5957,3 +5957,8 @@ input[type="text"].tito-ticket-quantity-field {
   color: #fff;
   font-size: 1em;
 }
+
+.tito-ticket-price {
+  color: #fff;
+  display: none;
+}
