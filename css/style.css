@@ -867,6 +867,11 @@ h3 {
   width: 120px;
 }
 
+.lions-logo img,
+.lions-logo {
+  width: 230px;
+}
+
 @media (max-width: 767px) {
   /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area {
